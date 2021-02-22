@@ -7,7 +7,6 @@
         "driver": {
           "fullName": "Dummy Test Tool",
           "name": "TestTool",
-          "informationUri": "www.example.com",
           "rules": [
             {
               "id": "example_NPE_rule",
