@@ -1,11 +1,11 @@
 public class File1 {
   public static void main(String[] args) {
     String foo = "bump";
-    int iDump = 0;
-    for (int i = 0; i>-1; i++) {
-      iDump = i;
+    String bar = null;
+    
+    if (null.length > foo.length) {
+      System.out.println("foobar");
     }
-    System.out.println("" + iDump);
   }
   
 }
