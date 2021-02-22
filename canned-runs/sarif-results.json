@@ -19,9 +19,6 @@
               },
               "help": {
                 "text": "Fix the null pointer exception in this code."
-              },
-              "defaultConfiguration": {
-                "level" : "error"
               }
             }
           ]
