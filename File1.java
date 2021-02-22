@@ -3,7 +3,7 @@ public class File1 {
     String foo = "bump";
     String bar = null;
     
-    if (bar.length > foo.length) {
+    if (bar.length() > foo.length()) {
       System.out.println("foobar");
     }
   }
