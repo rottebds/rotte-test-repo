@@ -26,14 +26,14 @@
       },
       "results": [
         {
-          "guid": "12345678-1234-3333-abcd-ef1234567890",
+          "guid": "22345678-1234-3333-abcd-ef1234567890",
           "ruleId": "example_NPE_rule",
           "level": "error",
           "message": {
             "text": "NPE detected"
           },
           "partialFingerprints": {
-            "fingerprint/v1": "12345678-1234-3333-abcd-ef1234567890"
+            "fingerprint/v1": "22345678-1234-3333-abcd-ef1234567890"
           },
           "locations": [
             {
@@ -43,8 +43,8 @@
                 },
                 "region": {
                   "startLine": 6,
-                  "startColumn": 8,
-                  "endColumn": 12
+                  "startColumn": 12,
+                  "endColumn": 13
                 }
               }
             }
