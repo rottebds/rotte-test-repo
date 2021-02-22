@@ -34,6 +34,7 @@
           "message": {
             "text": "NPE detected"
           },
+          "level": "error",
           "partialFingerprints": {
             "fingerprint/v1": "22345678-1234-3333-abcd-ef1234567890"
           },
