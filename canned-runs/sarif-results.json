@@ -19,6 +19,9 @@
               },
               "help": {
                 "text": "Fix the null pointer exception in this code."
+              },
+              "defaultConfiguration": {
+                "level": "error"
               }
             }
           ]
@@ -28,7 +31,6 @@
         {
           "guid": "12345678-1234-3333-abcd-ef1234567890",
           "ruleId": "example_NPE_rule",
-          "level": "error",
           "message": {
             "text": "NPE detected"
           },
