@@ -1,0 +1,57 @@
+{
+  "$schema": "https://schemastore.azurewebsites.net/schemas/json/sarif-2.1.0-rtm.5.json",
+  "version": "2.1.0",
+  "runs": [
+    {
+      "tool": {
+        "driver": {
+          "fullName": "Dummy Test Tool",
+          "name": "TestTool",
+          "informationUri": "www.example.com",
+          "rules": [
+            {
+              "id": "example_NPE_rule",
+              "name": "example_NPE_rule",
+              "shortDescription": {
+                "text": "NPE detected"
+              },
+              "fullDescription": {
+                "text": "This code will produce an NullPointerException when executed"
+              },
+              "help": {
+                "text": "Fix the null pointer exception in this code."
+              }
+            }
+          ]
+        }
+      },
+      "results": [
+        {
+          "guid": "12345678-1234-3333-abcd-ef1234567890",
+          "ruleId": "example_NPE_rule",
+          "level": "error",
+          "message": {
+            "text": "NPE detected"
+          },
+          "partialFingerprints": {
+            "fingerprint/v1": "12345678-1234-3333-abcd-ef1234567890"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "File1.java"
+                },
+                "region": {
+                  "startLine": 6,
+                  "startColumn": 8,
+                  "endColumn": 12
+                }
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
